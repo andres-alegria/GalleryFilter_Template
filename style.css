@@ -52,7 +52,13 @@ label {
   height: 150px;
   margin: 5px;
   border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+
+
 
 .logo {
   position: absolute;
