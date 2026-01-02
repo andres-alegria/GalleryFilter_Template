@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Smooth Flexbox Filtering with Flip</title>
+    <link rel='stylesheet' href='https://codepen.io/GreenSock/pen/JGaKdQ.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="container">
+  <div class="buttons-container">
+    <div class="checkboxes">
+      <label class="tag-button" for="all">
+        <input type="checkbox" id="all" checked> All
+        <span class="checked">All</span>
+      </label>
+      <label class="tag-button" for="gradient-blue">
+        <input type="checkbox" id="gradient-blue" class="filter" checked> Blue
+        <span class="checked">Blue</span>
+      </label>
+      <label class="tag-button" for="gradient-pink">
+        <input type="checkbox" id="gradient-pink" class="filter" checked> Pink
+        <span class="checked">Pink</span>
+      </label>
+      <label class="tag-button" for="gradient-purple">
+        <input type="checkbox" id="gradient-purple" class="filter" checked> Purple
+        <span class="checked">Purple</span>
+      </label>
+    </div>
+  </div>
+  <div class="box-container">
+    <div class="item gradient-blue"></div>
+    <div class="item gradient-pink"></div>
+    <div class="item gradient-purple"></div>
+    <div class="item gradient-pink"></div>
+    <div class="item gradient-blue"></div>
+    <div class="item gradient-purple"></div>
+    <div class="item gradient-blue"></div>
+    <div class="item gradient-purple"></div>
+  </div>
+</div>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+<script src='https://assets.codepen.io/16327/Flip.min.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
